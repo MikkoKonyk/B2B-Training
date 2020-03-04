@@ -1,0 +1,19 @@
+{
+  "packageDirectories": [
+    {
+      "path": "b2b",
+      "default": true,
+      "dependencies": [
+        {
+          "subscriberPackageVersionId": "CloudCraze"
+        }
+      ]
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "48.0",
+  "packageAliases": {
+    "CloudCraze": "04t3w0000011OnsAAE"
+  }
+}

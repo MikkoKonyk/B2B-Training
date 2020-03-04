@@ -1,0 +1,16 @@
+{
+  "orgName": "B2B Company",
+  "edition": "Developer",
+  "features": ["Communities","StateAndCountryPicklist"],
+  "settings": {
+    "lightningExperienceSettings": {
+        "enableS1DesktopEnabled": true
+    },
+    "communitiesSettings": {
+        "enableNetworksEnabled": true
+    },
+    "mobileSettings": {
+        "enableS1EncryptedStoragePref2": false
+    }
+  } 
+}
