@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ccrz__DefaultStore</fullName>
+    <columns>NAME</columns>
+    <columns>ccrz__ProductStatus__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ccrz__Storefront__c</field>
+        <operation>includes</operation>
+        <value>DefaultStore</value>
+    </filters>
+    <label>DefaultStore</label>
+    <language>en_US</language>
+</ListView>

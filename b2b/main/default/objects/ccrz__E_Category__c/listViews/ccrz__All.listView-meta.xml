@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ccrz__All</fullName>
+    <columns>ccrz__CategoryID__c</columns>
+    <columns>NAME</columns>
+    <columns>ccrz__ParentCategory__c</columns>
+    <columns>ccrz__ProductCount__c</columns>
+    <columns>ccrz__Sequence__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

@@ -1,20 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
-  <types>    
-    <members>*</members>
-    <name>ApexClass</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>ApexPage</name>
-  </types>  
-  <types>
-    <members>B2BAdminClone</members>
-    <name>PermissionSet</name>
-  </types>
-  <types>
-    <members>B2B Customer User</members>
-    <name>Profile</name>
-  </types>
-  <version>47.0</version>
-</Package>
+<?xml version='1.0' encoding='UTF-8'?>
+ <Package xmlns='http://soap.sforce.com/2006/04/metadata'>
+    <!-- CODE CUSTOMIZATIONS -->
+    <!-- =================== -->
+     <types>
+         <members>*</members>
+         <name>ApexClass</name>
+     </types>
+     <types>
+         <members>*</members>
+         <name>ApexTrigger</name>
+     </types>
+     <types>
+         <members>*</members>
+         <name>ApexComponent</name>
+     </types>
+     <types>
+         <members>*</members>
+         <name>ApexPage</name>
+     </types>
+    <types>
+        <members>*</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>LightningComponentBundle</name>
+    </types>
+
+
+    <!-- METADATA SETUP -->
+    <!-- ============== -->
+     <types>
+         <members>Admin</members>
+         <members>B2B Customer Plus User</members>
+         <members>B2B Customer User</members>
+         <name>Profile</name>
+     </types>
+     <types>        
+        <members>B2BCommerceGuestClone</members>
+        <members>B2BCommerceDataOwner</members>
+        <name>PermissionSet</name>
+     </types>
+     <types>                
+        <members>*</members>
+        <name>SharingCriteriaRule</name>
+     </types>
+     <types>
+         <members>ccrz__E_Product__c</members>
+         <members>ccrz__E_Category__c</members>
+         <members>ccrz__E_Attribute__c</members>
+         <members>ccrz__E_ProductCategory__c</members>
+         <members>ccrz__E_Spec__c</members>
+         <members>ccrz__E_ProductSpec__c</members>
+         <members>ccrz__E_ProductMedia__c</members>
+         <members>ccrz__E_PriceList__c</members>
+         <members>ccrz__E_PriceListItem__c</members>
+         <members>ccrz__E_Cart__c</members>
+         <members>ccrz__E_CartItem__c</members>
+         <members>ccrz__E_Order__c</members>
+         <members>ccrz__E_OrderItem__c</members>
+         <name>CustomObject</name>
+     </types>
+     <types>
+         <members>ccrz__E_Product__c-ccrz__CC Product Layout</members>
+         <members>ccrz__E_Category__c-ccrz__CC Category Layout</members>
+         <members>ccrz__E_Attribute__c-ccrz__CC Attribute Layout</members>
+         <members>ccrz__E_ProductCategory__c-ccrz__CC Product Category Layout</members>
+         <members>ccrz__E_Spec__c-ccrz__CC Spec Layout</members>
+         <members>ccrz__E_ProductSpec__c-ccrz__CC Product Spec Layout</members>
+         <members>ccrz__E_ProductMedia__c-ccrz__CC Product Media Layout</members>
+         <members>ccrz__E_PriceList__c-ccrz__CC Price List Layout</members>
+         <members>ccrz__E_PriceListItem__c-ccrz__CC Price List Item Layout</members>
+         <members>ccrz__E_Cart__c-ccrz__CC Cart Layout</members>
+         <members>ccrz__E_CartItem__c-ccrz__CC Cart Item Layout</members>
+         <members>ccrz__E_Order__c-ccrz__CC Order Layout</members>
+         <members>ccrz__E_OrderItem__c-ccrz__CC Order Item Layout</members>
+         <name>Layout</name>
+     </types>
+<!--
+    <types>
+        <members>*</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>FlowDefinition</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Workflow</name>
+    </types>
+-->
+     <version>45.0</version>
+ </Package>

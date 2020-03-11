@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ccrz__Datasheet</fullName>
+    <active>true</active>
+    <description>Datasheet</description>
+    <label>Datasheet</label>
+    <picklistValues>
+        <picklist>ccrz__MediaType__c</picklist>
+        <values>
+            <fullName>Alternate Images</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alternate Thumbnails</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assembly Guides</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Datasheets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flash Files</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JPG Image</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Owner%27s Manuals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Image</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Image Thumbnail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Search Image</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safety Documents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Brochures</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ccrz__ProductMediaSource__c</picklist>
+        <values>
+            <fullName>Attachment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Static Resource</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

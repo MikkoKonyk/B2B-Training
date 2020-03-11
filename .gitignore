@@ -8,6 +8,9 @@
 .DS_Store
 .localdevserver/
 
+# ...with the exception of the package.xml and anything that starts with the naming convention
+!package.xml
+
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
 
@@ -35,3 +38,20 @@ Thumbs.db
 ehthumbs.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
+
+# ignore classes, components, pages, static resources and metas from salesforce...
+/lwc
+*.cls
+*.cls-meta.xml
+*.component
+*.component-meta.xml
+*.page
+*.page-meta.xml
+*.resource
+*.resource-meta.xml
+*.trigger
+*.trigger-meta.xml
+*.flow
+*.flowDefinition
+*.workflow
+*.field-meta.xml

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ccrz__Matt_Portal</fullName>
+    <columns>NAME</columns>
+    <columns>ccrz__BillTo__c</columns>
+    <columns>ccrz__ShipTo__c</columns>
+    <columns>ccrz__ShipAmount__c</columns>
+    <columns>ccrz__TaxAmount__c</columns>
+    <columns>ccrz__ActiveCart__c</columns>
+    <columns>ccrz__EncryptedId__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OWNER.FIRST_NAME</field>
+        <operation>equals</operation>
+        <value>Matt</value>
+    </filters>
+    <label>Matt Portal</label>
+</ListView>
